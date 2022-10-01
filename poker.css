@@ -1,0 +1,32 @@
+:root{
+
+    --body: #190d23;
+    --none: rgba(#fff, 0);
+    --card: #f5e3e3;
+    --blue: #302e9b;
+    --red: #b32b28;
+    --yellow: #bdb725;
+}
+    #back {
+  box-shadow: 0 0 0 1rem var(--blue), inset 0 0 0 1rem var(--blue), inset 0 0 0 2rem var(--card);
+  border-radius: 1rem;
+  height: 93%;
+  width: 90%;
+  border: 2rem solid var(--none);
+  background-position: 0.9rem 0.99rem;
+  background-image: repeating-linear-gradient(
+      45deg,
+      var(--none),
+      var(--none) 0.99rem,
+      var(--blue) 0.99rem,
+      var(--blue) 1.98rem
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      var(--none),
+      var(--none) 0.99rem,
+      var(--blue) 0.99rem,
+      var(--blue) 1.98rem
+    );
+
+}
